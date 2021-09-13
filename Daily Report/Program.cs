@@ -23,7 +23,7 @@ namespace Daily_Report
             string feedback = Console.ReadLine();
             Console.WriteLine("How many hours did you study today?");
             int hours = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Thank you for your answers. An instructor will respond to this shortly. Have a great day!")
+            Console.WriteLine("Thank you for your answers. An instructor will respond to this shortly. Have a great day!");
             Console.Read();
         }
     }
