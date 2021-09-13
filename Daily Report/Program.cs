@@ -10,7 +10,9 @@ namespace Daily_Report
             Console.WriteLine("The Tech Academy");
             Console.WriteLine("Student Daily Report");
             Console.WriteLine("What is your name?");
+            string name = Console.ReadLine();
             Console.WriteLine("What Course are you on?");
+            string course = Console.ReadLine();
             Console.WriteLine("What page number?");
             Console.WriteLine("Do you need help with anything? Please answer \"true\" or \"false\"");
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give specifics.");
