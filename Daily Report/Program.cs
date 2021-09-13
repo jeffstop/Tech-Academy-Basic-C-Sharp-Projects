@@ -7,7 +7,9 @@ namespace Daily_Report
     {
         static void Main()
         {
-
+            Console.WriteLine("The Tech Academy");
+            Console.WriteLine("Student Daily Report");
+            Console.Read();
         }
     }
 }
