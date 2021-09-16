@@ -41,7 +41,9 @@ namespace Branching
                 Environment.Exit(-1);
                 }
 
-            
+            int quote = (((width * height * length) * weight) / 100);
+            Console.WriteLine("Your estimated total for shipping this package is: ${0}", quote);
+            Console.WriteLine("Thank you!");
             Console.Read();
         }
     }
