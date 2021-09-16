@@ -13,6 +13,9 @@ namespace Branching
                 if (weight > 50)
                 {
                 Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
+                // Console.Read() is placed here so the console doesn't immediately close
+                Console.Read();
+                // This closes the program. There must be an integer for this to work
                 Environment.Exit(-1);
                 }
 
