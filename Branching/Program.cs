@@ -13,6 +13,7 @@ namespace Branching
                 if (weight > 50)
                 {
                 Console.WriteLine("Package too heavy to be shipped via Package Express. Have a good day.");
+                Environment.Exit(-1);
                 }
 
             Console.WriteLine("Please enter the package width:");
