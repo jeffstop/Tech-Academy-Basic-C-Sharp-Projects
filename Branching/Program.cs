@@ -15,6 +15,7 @@ namespace Branching
             Console.WriteLine("Please enter the package height:");
 
             Console.WriteLine("Please enter the package length:");
+            Console.Read();
         }
     }
 }
