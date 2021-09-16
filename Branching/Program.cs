@@ -31,17 +31,19 @@ namespace Branching
             // Package Length
             Console.WriteLine("Please enter the package length:");
             int length = Convert.ToInt32(Console.ReadLine());
-                // 
+                // Calculate total of dimensions, greater than 50 closes program
                 if (width + height + length > 50)
                 {
                 Console.WriteLine("Package too big to be shipped via Package Express.");
-                // 
+                // Keeps console open
                 Console.Read();
-                // 
+                // Closes program
                 Environment.Exit(-1);
                 }
 
+            // Calculate quote
             int quote = (((width * height * length) * weight) / 100);
+            // Insert quote value into string for display. Must be {0} to display
             Console.WriteLine("Your estimated total for shipping this package is: ${0}", quote);
             Console.WriteLine("Thank you!");
             Console.Read();
