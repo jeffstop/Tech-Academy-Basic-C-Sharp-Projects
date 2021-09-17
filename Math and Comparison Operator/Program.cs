@@ -39,7 +39,7 @@ namespace Math_and_Comparison_Operator
 
             // Compare Person 1 salary to Person 2 salary
             Console.WriteLine("Does Person 1 make more money than person 2?");
-            Console.WriteLine(product1 >= product2);
+            Console.WriteLine(product1 > product2);
             Console.Read();
         }
     }
