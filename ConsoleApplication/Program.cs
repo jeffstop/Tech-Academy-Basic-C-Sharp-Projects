@@ -13,6 +13,7 @@ namespace ConsoleApplication
             string[] stringArray = { "This is the first string.", "The second string.", "Third string." };
             Console.WriteLine("Please input a string:");
             string userString = Console.ReadLine();
+            Console.Read();
 
         }
     }
