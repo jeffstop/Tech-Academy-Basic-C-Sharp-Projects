@@ -60,6 +60,17 @@ namespace ConsoleApplication
                 r++;
             }
 
+            // List
+            List<string> strlist = new List<string>();
+            strlist.Add("First string");
+            strlist.Add("Second string");
+            strlist.Add("Third string");
+
+            for (int a = 0; a < strlist.Count; a++)
+            {
+                Console.WriteLine(strlist[a]);
+            }
+
             Console.Read();
 
         }
