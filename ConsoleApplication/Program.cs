@@ -30,11 +30,22 @@ namespace ConsoleApplication
             }
 
             // Infinite loop
+            //bool infinite = true;
+            //while (infinite == true)
+            //{
+            //Console.WriteLine(infinite);
+            //}
+
+            // Fixed infinite loop
             bool infinite = true;
             while (infinite == true)
             {
+                infinite = false;
                 Console.WriteLine(infinite);
             }
+
+
+
             Console.Read();
 
         }
