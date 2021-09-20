@@ -53,7 +53,12 @@ namespace ConsoleApplication
             }
 
             // Loop comparison using "<="
-
+            int r = 0;
+            while (r <= 5)
+            {
+                Console.WriteLine(r);
+                r++;
+            }
 
             Console.Read();
 
