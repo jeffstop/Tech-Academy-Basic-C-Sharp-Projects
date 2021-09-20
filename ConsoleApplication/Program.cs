@@ -23,7 +23,7 @@ namespace ConsoleApplication
                 stringArray[n] = concstring; 
             }
             
-            // Foreach loop to print each element in array
+            // Foreach loop to print each element in array "stringArray"
             foreach (string i in stringArray) 
             {
                 Console.WriteLine(i);
@@ -44,6 +44,15 @@ namespace ConsoleApplication
                 Console.WriteLine(infinite);
             }
 
+            // Loop comparison using "<"
+            int j = 0;
+            while (j < 5)
+            {
+                Console.WriteLine(j);
+                j++;
+            }
+
+            // Loop comparison using "<="
 
 
             Console.Read();
