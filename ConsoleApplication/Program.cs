@@ -28,6 +28,13 @@ namespace ConsoleApplication
             {
                 Console.WriteLine(i);
             }
+
+            // Infinite loop
+            bool infinite = true;
+            while (infinite == true)
+            {
+                Console.WriteLine(infinite);
+            }
             Console.Read();
 
         }
