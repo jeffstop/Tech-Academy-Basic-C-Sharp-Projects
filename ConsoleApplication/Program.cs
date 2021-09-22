@@ -66,9 +66,14 @@ namespace ConsoleApplication
             strlist.Add("Second string");
             strlist.Add("Third string");
 
-            for (int a = 0; a < strlist.Count; a++)
+            string searchstring = Console.ReadLine();
+            foreach (string s in strlist)
             {
-                Console.WriteLine(strlist[a]);
+                Console.WriteLine(s);
+                if (s == searchstring)
+                {
+                    Console.WriteLine("{}", strlist.FindIndex(0, strlist.Count - 1));
+                }
             }
 
             Console.Read();
