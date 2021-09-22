@@ -66,6 +66,7 @@ namespace ConsoleApplication
             strlist.Add("Second string");
             strlist.Add("Third string");
 
+            Console.WriteLine("Please input your search:");
             string searchstring = Console.ReadLine();
             for (int s = 0; s < strlist.Count; s++)
             {
