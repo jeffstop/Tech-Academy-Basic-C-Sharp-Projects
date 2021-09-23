@@ -115,7 +115,13 @@ namespace ConsoleApplication
             {
                 Console.WriteLine("Your search did not match any string on the list.");
             }
-            
+
+
+            // List with duplicate items
+            List<string> duplist = new List<string>();
+            duplist.Add("Duplicate");
+            duplist.Add("Not duplicate");
+            duplist.Add("Duplicate");
 
 
 
