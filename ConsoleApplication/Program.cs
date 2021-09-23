@@ -68,8 +68,6 @@ namespace ConsoleApplication
                 r++;
             }
 
-            Console.Read();
-
             // List
             List<string> strlist = new List<string>();
             strlist.Add("First string");
@@ -80,7 +78,9 @@ namespace ConsoleApplication
             string searchstring = Console.ReadLine();
             foreach (var str in strlist)
             {
-                Console.WriteLine(str);
+                int index = strlist.IndexOf(str);
+                Console.WriteLine(index);
+                
             }
 
             Console.Read();
