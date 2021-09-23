@@ -36,6 +36,8 @@ namespace ConsoleApplication
             //Console.WriteLine(infinite);
             //}
 
+            Console.WriteLine("Fixed infinite loop:");
+
             // Fixed infinite loop
             bool infinite = true;
             while (infinite == true)
@@ -44,6 +46,9 @@ namespace ConsoleApplication
                 Console.WriteLine(infinite);
             }
 
+            Console.Read();
+
+            Console.WriteLine("Loop comparison using <:");
             // Loop comparison using "<"
             int j = 0;
             while (j < 5)
@@ -52,6 +57,9 @@ namespace ConsoleApplication
                 j++;
             }
 
+            Console.Read();
+
+            Console.WriteLine("Loop comparison using <=:");
             // Loop comparison using "<="
             int r = 0;
             while (r <= 5)
@@ -59,6 +67,8 @@ namespace ConsoleApplication
                 Console.WriteLine(r);
                 r++;
             }
+
+            Console.Read();
 
             // List
             List<string> strlist = new List<string>();
