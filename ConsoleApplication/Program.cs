@@ -29,6 +29,8 @@ namespace ConsoleApplication
                 Console.WriteLine(i);
             }
 
+            Console.WriteLine();
+
             // Infinite loop
             //bool infinite = true;
             //while (infinite == true)
@@ -45,6 +47,8 @@ namespace ConsoleApplication
                 infinite = false;
                 Console.WriteLine(infinite);
             }
+
+            Console.WriteLine();
 
             Console.Read();
 
@@ -67,6 +71,10 @@ namespace ConsoleApplication
                 Console.WriteLine(r);
                 r++;
             }
+
+            Console.Read();
+
+            Console.WriteLine();
 
             // List
             List<string> strlist = new List<string>();
