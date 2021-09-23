@@ -76,6 +76,7 @@ namespace ConsoleApplication
 
             Console.WriteLine("Please input your search:");
             string searchstring = Console.ReadLine();
+            bool found = false;
             foreach (var str in strlist)
             {
                 int index = strlist.IndexOf(str);
@@ -83,15 +84,15 @@ namespace ConsoleApplication
                 if (str == searchstring)
                 {
                     Console.WriteLine($"Your search matched!\nIndex value: {index}\nString: {str}");
+                    found = true;
                     break;
                 }
-                else
-                {
-                    Console.WriteLine("Your search did not match any string on the list.");
-                    break;
-                }
-                
             }
+            if (!found)
+            {
+                Console.WriteLine("Your search did not match any string on the list.");
+            }
+            
 
             Console.Read();
         }
