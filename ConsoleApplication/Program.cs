@@ -74,7 +74,12 @@ namespace ConsoleApplication
             strlist.Add("Second string");
             strlist.Add("Third string");
 
-            Console.WriteLine("Please input your search:");
+            foreach (var str in strlist)
+            {
+                Console.WriteLine(str);
+            }
+
+            Console.WriteLine("Please input your search request for the above list:");
             string searchstring = Console.ReadLine();
             bool found = false;
             foreach (var str in strlist)
