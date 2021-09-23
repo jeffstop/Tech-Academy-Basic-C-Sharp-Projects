@@ -29,9 +29,10 @@ namespace ConsoleApplication
                 Console.WriteLine(i);
             }
 
+            // Used for spacing
             Console.WriteLine();
 
-            // Infinite loop
+            // Infinite loop that will continue to pring true
             //bool infinite = true;
             //while (infinite == true)
             //{
@@ -48,9 +49,8 @@ namespace ConsoleApplication
                 Console.WriteLine(infinite);
             }
 
+            // Used for spacing
             Console.WriteLine();
-
-            Console.Read();
 
             Console.WriteLine("Loop comparison using <:");
             // Loop comparison using "<"
@@ -61,8 +61,6 @@ namespace ConsoleApplication
                 j++;
             }
 
-            Console.Read();
-
             Console.WriteLine("Loop comparison using <=:");
             // Loop comparison using "<="
             int r = 0;
@@ -72,8 +70,7 @@ namespace ConsoleApplication
                 r++;
             }
 
-            Console.Read();
-
+            // Used for spacing
             Console.WriteLine();
 
             // List
@@ -82,18 +79,27 @@ namespace ConsoleApplication
             strlist.Add("Second string");
             strlist.Add("Third string");
 
+            // Display list to make searching it easier for user
             foreach (var str in strlist)
             {
                 Console.WriteLine(str);
             }
 
             Console.WriteLine("Please input your search request for the above list:");
+
+            // User search input
             string searchstring = Console.ReadLine();
+
+            // Bool variable for search results. False is default and means the search did not match any item on the list, while true is a match for an item
             bool found = false;
+
+            // Iterate each item in list
             foreach (var str in strlist)
             {
+                // Create variable to store index value of each item
                 int index = strlist.IndexOf(str);
 
+                // if statement to determine if search result matches item on list. If true changes bool variable "found" to equal true. Displays message on match
                 if (str == searchstring)
                 {
                     Console.WriteLine($"Your search matched!\nIndex value: {index}\nString: {str}");
@@ -101,6 +107,7 @@ namespace ConsoleApplication
                     break;
                 }
             }
+            // if "found" equals false display message to user
             if (!found)
             {
                 Console.WriteLine("Your search did not match any string on the list.");
