@@ -79,7 +79,17 @@ namespace ConsoleApplication
             foreach (var str in strlist)
             {
                 int index = strlist.IndexOf(str);
-                Console.WriteLine(index);
+
+                if (str == searchstring)
+                {
+                    Console.WriteLine($"Your search matched!\nIndex value: {index}\nString: {str}");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Your search did not match any string on the list.");
+                    break;
+                }
                 
             }
 
