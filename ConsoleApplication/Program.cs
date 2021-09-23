@@ -72,6 +72,8 @@ namespace ConsoleApplication
             {
                 Console.WriteLine(str);
             }
+
+            Console.Read();
         }
     }
 }
