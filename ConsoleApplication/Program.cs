@@ -17,14 +17,14 @@ namespace ConsoleApplication
             string userString = Console.ReadLine();
 
             // For loop to add user input to the end of each element in array "stringArray"
-            for (int n = 0; n < stringArray.Length; n++) 
+            for (int n = 0; n < stringArray.Length; n++)
             {
                 string concstring = stringArray[n] + " " + userString;
-                stringArray[n] = concstring; 
+                stringArray[n] = concstring;
             }
-            
+
             // Foreach loop to print each element in array "stringArray"
-            foreach (string i in stringArray) 
+            foreach (string i in stringArray)
             {
                 Console.WriteLine(i);
             }
@@ -68,13 +68,10 @@ namespace ConsoleApplication
 
             Console.WriteLine("Please input your search:");
             string searchstring = Console.ReadLine();
-            for (int s = 0; s < strlist.Count; s++)
+            foreach (var str in strlist)
             {
-
+                Console.WriteLine(str);
             }
-
-            Console.Read();
-
         }
     }
 }
