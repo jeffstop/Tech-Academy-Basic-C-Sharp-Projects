@@ -122,7 +122,6 @@ namespace ConsoleApplication
                 int dupindex = duplist.IndexOf(dupstr);
                 if (dupstr == dupsearch)
                 {
-                    
                     Console.WriteLine($"Your search matched!\nIndex value: {dupindex}\nString: {dupstr}");
                     dupfound = true;
                 }
