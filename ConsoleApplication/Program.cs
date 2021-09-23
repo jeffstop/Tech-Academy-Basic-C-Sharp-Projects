@@ -105,12 +105,11 @@ namespace ConsoleApplication
                 Console.WriteLine("Your search did not match any string on the list.");
             }
 
+            Console.WriteLine();
+
 
             // List with duplicate items
-            List<string> duplist = new List<string>();
-            duplist.Add("Duplicate");
-            duplist.Add("Not duplicate");
-            duplist.Add("Duplicate");
+            List<string> duplist = new List<string> { "Duplicate", "Not duplicate", "Duplicate" };
             foreach (var dupstr in duplist)
             {
                 Console.WriteLine(dupstr);
@@ -118,6 +117,20 @@ namespace ConsoleApplication
             Console.WriteLine("Please search from the list above:");
             string dupsearch = Console.ReadLine();
             bool dupfound = false;
+            foreach (var dupstr in duplist)
+            {
+                int dupindex = duplist.IndexOf(dupstr);
+                Console.WriteLine(dupindex);
+                if (dupstr == dupsearch)
+                {
+                    Console.WriteLine($"Your search matched!\nIndex value: {dupindex}\nString: {dupstr}");
+                    dupfound = true;
+                }
+            }
+            if (!dupfound)
+            {
+                Console.WriteLine("Your search did not match any string on the list.");
+            }
 
 
             Console.Read();
