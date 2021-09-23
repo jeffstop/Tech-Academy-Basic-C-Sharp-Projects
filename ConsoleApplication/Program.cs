@@ -120,9 +120,9 @@ namespace ConsoleApplication
             foreach (var dupstr in duplist)
             {
                 int dupindex = duplist.IndexOf(dupstr);
-                Console.WriteLine(dupindex);
                 if (dupstr == dupsearch)
                 {
+                    
                     Console.WriteLine($"Your search matched!\nIndex value: {dupindex}\nString: {dupstr}");
                     dupfound = true;
                 }
