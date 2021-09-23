@@ -32,6 +32,7 @@ namespace ConsoleApplication
             // Used for spacing
             Console.WriteLine();
 
+            
             // Infinite loop that will continue to pring true
             //bool infinite = true;
             //while (infinite == true)
@@ -52,6 +53,7 @@ namespace ConsoleApplication
             // Used for spacing
             Console.WriteLine();
 
+            
             Console.WriteLine("Loop comparison using <:");
             // Loop comparison using "<"
             int j = 0;
@@ -73,6 +75,7 @@ namespace ConsoleApplication
             // Used for spacing
             Console.WriteLine();
 
+            
             // List
             List<string> strlist = new List<string>();
             strlist.Add("First string");
@@ -113,6 +116,8 @@ namespace ConsoleApplication
                 Console.WriteLine("Your search did not match any string on the list.");
             }
             
+
+
 
             Console.Read();
         }
