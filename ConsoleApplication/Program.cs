@@ -120,10 +120,12 @@ namespace ConsoleApplication
             foreach (var dupstr in duplist)
             {
                 int dupindex = duplist.IndexOf(dupstr);
+                int duplastindex = duplist.LastIndexOf(dupstr);
                 if (dupstr == dupsearch)
                 {
-                    Console.WriteLine($"Your search matched!\nIndex value: {dupindex}\nString: {dupstr}");
+                    Console.WriteLine($"Your search matched!\nFirst index value: {dupindex}\nLast index value: {duplastindex}\nString: {dupstr}");
                     dupfound = true;
+                    break;
                 }
             }
             if (!dupfound)
