@@ -109,25 +109,36 @@ namespace ConsoleApplication
 
 
             // List with duplicate items
-            List<string> duplist = new List<string> { "Duplicate", "Not duplicate", "Duplicate" };
+            List<string> duplist = new List<string> { "Duplicate", "Not the same", "Duplicate" };
+            // Iterate through each item in list
             foreach (var dupstr in duplist)
             {
+                // Display list for user to see
                 Console.WriteLine(dupstr);
             }
             Console.WriteLine("Please search from the list above:");
+            // User search input
             string dupsearch = Console.ReadLine();
+            // Bool variable for search results. False means no match, true means there is a match
             bool dupfound = false;
+            // Iterate through each item in list
             foreach (var dupstr in duplist)
             {
+                // Create variables to represent the index value of the first and last occurrence 
                 int dupindex = duplist.IndexOf(dupstr);
                 int duplastindex = duplist.LastIndexOf(dupstr);
+                // if comparison statement
                 if (dupstr == dupsearch)
                 {
+                    // Display results of search
                     Console.WriteLine($"Your search matched!\nFirst index value: {dupindex}\nLast index value: {duplastindex}\nString: {dupstr}");
+                    // Change bool variable to true when there is a match
                     dupfound = true;
+                    // Stops loop once a match is found
                     break;
                 }
             }
+            // if statement for when there is no match in the search
             if (!dupfound)
             {
                 Console.WriteLine("Your search did not match any string on the list.");
