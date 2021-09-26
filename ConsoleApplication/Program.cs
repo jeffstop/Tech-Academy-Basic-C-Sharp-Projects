@@ -144,6 +144,26 @@ namespace ConsoleApplication
                 Console.WriteLine("Your search did not match any string on the list.");
             }
 
+            // Used for spacing
+            Console.WriteLine();
+
+
+
+            // New list
+            List<string> newstr = new List<string> { "Left", "Right", "Up", "Left" };
+            Console.WriteLine("Here is another list:");
+            Console.WriteLine();
+            // foreach statement
+            foreach (var ns in newstr)
+            {
+                bool exists = ns.Contains("Left");
+                while (exists == true)
+                {
+
+                }
+            }    
+
+
 
             Console.Read();
         }
