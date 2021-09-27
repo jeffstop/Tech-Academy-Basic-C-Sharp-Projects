@@ -163,11 +163,11 @@ namespace ConsoleApplication
                 bool exists = ns.Contains("Left");
                 if (exists == true)
                 {
-                    Console.WriteLine($"This string has already appeared on the list: \"{ns}\" ");
+                    Console.WriteLine($"\"{ns}\": This string has already appeared on the list");
                 }
                 else
                 {
-                    Console.WriteLine("This string hasn't already appeared on the list.");
+                    Console.WriteLine($"\"{ns}\": This string hasn't appeared on the list yet.");
                 }
             }    
 
