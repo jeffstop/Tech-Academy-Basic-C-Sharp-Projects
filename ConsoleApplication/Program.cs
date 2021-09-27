@@ -157,9 +157,9 @@ namespace ConsoleApplication
             foreach (var ns in newstr)
             {
                 bool exists = ns.Contains("Left");
-                while (exists == true)
+                if (exists == true)
                 {
-
+                    Console.WriteLine("Contains \"Left\"");
                 }
             }    
 
