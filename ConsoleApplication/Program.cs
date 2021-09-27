@@ -152,6 +152,7 @@ namespace ConsoleApplication
             // New list
             List<string> newstr = new List<string> { "Left", "Right", "Up", "Left" };
             Console.WriteLine("Here is another list:");
+            // Display list for user to see
             foreach (var ns in newstr)
             {
                 Console.WriteLine(ns);
@@ -160,10 +161,12 @@ namespace ConsoleApplication
             // foreach statement
             foreach (var ns in newstr)
             {
+                // bool variable to determine if list item is a duplicate
                 bool exists = ns.Contains("Left");
+                // Displays whether each string appears in the list multiple times
                 if (exists == true)
                 {
-                    Console.WriteLine($"\"{ns}\": This string has already appeared on the list");
+                    Console.WriteLine($"\"{ns}\": This string appears elsewhere on the list");
                 }
                 else
                 {
