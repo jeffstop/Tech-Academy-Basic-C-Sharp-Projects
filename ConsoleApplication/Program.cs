@@ -152,6 +152,10 @@ namespace ConsoleApplication
             // New list
             List<string> newstr = new List<string> { "Left", "Right", "Up", "Left" };
             Console.WriteLine("Here is another list:");
+            foreach (var ns in newstr)
+            {
+                Console.WriteLine(ns);
+            }
             Console.WriteLine();
             // foreach statement
             foreach (var ns in newstr)
@@ -159,7 +163,11 @@ namespace ConsoleApplication
                 bool exists = ns.Contains("Left");
                 if (exists == true)
                 {
-                    Console.WriteLine("Contains \"Left\"");
+                    Console.WriteLine($"This string has already appeared on the list: \"{ns}\" ");
+                }
+                else
+                {
+                    Console.WriteLine("This string hasn't already appeared on the list.");
                 }
             }    
 
