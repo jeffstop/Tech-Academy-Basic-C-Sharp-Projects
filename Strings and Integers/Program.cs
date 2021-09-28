@@ -54,7 +54,6 @@ namespace Strings_and_Integers
             {
                 Console.ReadLine();
                 Console.WriteLine("The program is done, goodbye.");
-                Console.ReadLine();
             }
 
             Console.Read();
