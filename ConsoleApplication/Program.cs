@@ -151,28 +151,27 @@ namespace ConsoleApplication
 
             // New list
             List<string> newstr = new List<string>() { "Left", "Right", "Up", "Left" };
-            Console.WriteLine("Here is another list:");
-            // Display list for user to see
-            foreach (var ns in newstr)
-            {
-                Console.WriteLine(ns);
-            }
+            Console.WriteLine("Part Six:");
             Console.WriteLine();
+            // Create empty list to add unique strings to
             List<string> dupes = new List<string>();
             // foreach statement
             foreach (var ns in newstr)
             {
-               if (dupes.Contains(ns))
+                // Checking list "dupes" if it already contains the item "ns"
+                if (dupes.Contains(ns))
                 {
                     Console.WriteLine($"The string: \"{ns}\" has already appeared in the list");
                 }
-               else
+                // If list "dupes" doesn't contain "ns" then it's added to "dupes"
+                else
                 {
                     dupes.Add(ns);
                     Console.WriteLine(ns);
                 }
             }
-            Console.WriteLine(dupes.Count);
+            // Display the count of unique strings in the list
+            Console.WriteLine("Number of unique strings in list: " + dupes.Count);
 
 
             Console.Read();
