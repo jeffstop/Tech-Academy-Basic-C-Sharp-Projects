@@ -18,11 +18,11 @@ namespace Calling_Methods
             Console.ReadLine();
 
             int result2 = Class1.Multiply(userNum, 5);
-            Console.WriteLine($"The product of {userNum} and 5 equals: {result1}");
+            Console.WriteLine($"The product of {userNum} and 5 equals: {result2}");
             Console.ReadLine();
 
             int result3 = Class1.Divide(userNum, 2);
-            Console.WriteLine($"The division of {userNum} by 2 equals: {result1}");
+            Console.WriteLine($"The division of {userNum} by 2 equals: {result3}");
             Console.ReadLine();
         }
     }
