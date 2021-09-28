@@ -158,22 +158,17 @@ namespace ConsoleApplication
                 Console.WriteLine(ns);
             }
             Console.WriteLine();
+            List<string> dupes = new List<string> { };
             // foreach statement
             foreach (var ns in newstr)
             {
-                // bool variable to determine if list item is a duplicate
-                bool exists = ns.Contains("Left");
-                // Displays whether each string appears in the list multiple times
-                if (exists == true)
-                {
-                    Console.WriteLine($"\"{ns}\": This string appears elsewhere on the list");
-                }
-                else
-                {
-                    Console.WriteLine($"\"{ns}\": This string hasn't appeared on the list yet.");
-                }
-            }    
+                dupes.Add(ns);
 
+            }
+            foreach (var dupe in dupes)
+            {
+                Console.WriteLine(dupe);
+            }
 
 
             Console.Read();
