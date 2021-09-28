@@ -150,7 +150,7 @@ namespace ConsoleApplication
 
 
             // New list
-            List<string> newstr = new List<string> { "Left", "Right", "Up", "Left" };
+            List<string> newstr = new List<string>() { "Left", "Right", "Up", "Left" };
             Console.WriteLine("Here is another list:");
             // Display list for user to see
             foreach (var ns in newstr)
@@ -158,17 +158,21 @@ namespace ConsoleApplication
                 Console.WriteLine(ns);
             }
             Console.WriteLine();
-            List<string> dupes = new List<string> { };
+            List<string> dupes = new List<string>();
             // foreach statement
             foreach (var ns in newstr)
             {
-                dupes.Add(ns);
-
+               if (dupes.Contains(ns))
+                {
+                    Console.WriteLine($"The string: \"{ns}\" has already appeared in the list");
+                }
+               else
+                {
+                    dupes.Add(ns);
+                    Console.WriteLine(ns);
+                }
             }
-            foreach (var dupe in dupes)
-            {
-                Console.WriteLine(dupe);
-            }
+            Console.WriteLine(dupes.Count);
 
 
             Console.Read();
