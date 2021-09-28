@@ -28,7 +28,7 @@ namespace Strings_and_Integers
                     // Variable "division" represents the value of a list number divided by the user's input
                     int division = num / divnum;
                     // Display results of each division
-                    Console.WriteLine(division);
+                    Console.WriteLine(num + " / " + divnum + " = " + division);
                 }
             }
             // Catch block for when a user divides by 0
@@ -53,10 +53,9 @@ namespace Strings_and_Integers
             finally
             {
                 Console.ReadLine();
+                Console.WriteLine("The program is done, goodbye.");
+                Console.ReadLine();
             }
-
-            // Message to inform user that the try/catch portion of the program is done
-            Console.WriteLine("The program is done with the try/catch block");
 
             Console.Read();
         }
