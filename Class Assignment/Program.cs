@@ -10,6 +10,7 @@ namespace Class_Assignment
     {
         static void Main(string[] args)
         {
+            Math math = new Math();
         }
     }
 }

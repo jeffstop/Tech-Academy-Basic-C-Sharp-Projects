@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Class_Assignment
 {
-    class Class1
+    public class Math
     {
+
     }
 }
