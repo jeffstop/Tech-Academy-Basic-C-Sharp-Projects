@@ -10,17 +10,21 @@ namespace Main_Method
     {
         static void Main(string[] args)
         {
+            // Get number from user and call method "Addition"
             Console.WriteLine("Please enter a number to add to 12:");
             int userNum = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(Class1.Addition(userNum, 12));
 
+            // Get number from user and call method "Multiply"
             Console.WriteLine("Enter a decimal number to be mulitplied by 5:");
             decimal userInput = Convert.ToDecimal(Console.ReadLine());
             Console.WriteLine(Class1.Multiply(userInput, 5));
 
+            //Get number from user and call method "Multi"
             Console.WriteLine("Enter a number to be multiplied by 9:");
-            double userString = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(Class1.Multi(userString, 9));
+            string userString = Console.ReadLine();
+            double dub = Convert.ToDouble(userString);
+            Console.WriteLine(Class1.Multi(dub, 9));
             Console.ReadLine();
         }
     }
