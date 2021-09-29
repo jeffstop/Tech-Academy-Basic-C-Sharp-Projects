@@ -22,6 +22,11 @@ namespace Main_Method
             return (decimal)result;
         }
 
-        public static int
+        public static double Multi(double userString, double y)
+        {
+            double result = userString * y;
+
+            return result;
+        }
     }
 }

@@ -18,7 +18,9 @@ namespace Main_Method
             decimal userInput = Convert.ToDecimal(Console.ReadLine());
             Console.WriteLine(Class1.Multiply(userInput, 5));
 
-
+            Console.WriteLine("Enter a number to be multiplied by 9:");
+            double userString = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine(Class1.Multi(userString, 9));
             Console.ReadLine();
         }
     }
