@@ -13,11 +13,11 @@ namespace Method
             Console.WriteLine("Please enter a number: ");
             int userInt = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("(Optional)Please enter another number: ");
-            string userString = Console.ReadLine();
+            string userInt2 = Console.ReadLine();
 
-            if (userString != "")
+            if (userInt2 != "")
             {
-                int x = Convert.ToInt32(userString);
+                int x = Convert.ToInt32(userInt2);
                 Console.WriteLine(Class1.Method(x));
                 Console.ReadLine();
             }
