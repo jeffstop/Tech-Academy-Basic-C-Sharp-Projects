@@ -1,0 +1,2 @@
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Method Class\obj\Debug\Method Class.csproj.AssemblyReference.cache
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Method Class\obj\Debug\Method Class.csproj.CoreCompileInputs.cache

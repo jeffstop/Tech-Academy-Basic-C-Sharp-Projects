@@ -10,6 +10,13 @@ namespace Method_Class
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter an integer: ");
+            int intOne = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter a second integer: ");
+            int intTwo = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(Class1.MyMethod(intOne, intTwo));
+            Console.ReadLine();
         }
     }
 }
