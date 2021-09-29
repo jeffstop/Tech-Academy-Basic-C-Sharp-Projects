@@ -23,7 +23,7 @@ namespace Method
             if (userInt2 != "")
             {
                 int x = Convert.ToInt32(userInt2);
-                Console.WriteLine(Class1.Method(x));
+                Console.WriteLine(Class1.Method(x, userInt));
                 Console.ReadLine();
             }
             else
