@@ -17,9 +17,11 @@ namespace Main_Method
 
         public static decimal Multiply(decimal userInput, int y)
         {
-            int result = (int)userInput * y;
+            decimal result = (int)userInput * y;
 
-            return result;
+            return (decimal)result;
         }
+
+        public static int
     }
 }

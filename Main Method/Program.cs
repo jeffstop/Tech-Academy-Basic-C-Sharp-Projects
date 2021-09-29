@@ -17,6 +17,8 @@ namespace Main_Method
             Console.WriteLine("Enter a decimal number to be mulitplied by 5:");
             decimal userInput = Convert.ToDecimal(Console.ReadLine());
             Console.WriteLine(Class1.Multiply(userInput, 5));
+
+
             Console.ReadLine();
         }
     }
