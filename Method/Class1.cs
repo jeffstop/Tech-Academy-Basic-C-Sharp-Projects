@@ -8,5 +8,11 @@ namespace Method
 {
     class Class1
     {
+        public static int Method(int x, int y)
+        {
+            int result = x * y;
+
+            return result;
+        }
     }
 }
