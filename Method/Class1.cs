@@ -8,7 +8,7 @@ namespace Method
 {
     class Class1
     {
-        public static int Method(int x, int y)
+        public static int Method(int x, int y = 5)
         {
             int result = x * y;
 
