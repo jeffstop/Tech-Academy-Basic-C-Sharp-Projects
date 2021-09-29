@@ -19,15 +19,15 @@ namespace Main_Method
         // Multiply user's decimal by an integer and return an integer as the answer
         public static decimal Multiply(decimal userInput, int y)
         {
-            decimal result = (int)userInput * y;
+            int result = (int)userInput * y;
 
-            return (decimal)result;
+            return result;
         }
 
         // Multiplies user's input by an integer
-        public static double Multi(double userString, double y)
+        public static double Multi(int userString, int y)
         {
-            double result = userString * y;
+            int result = userString * y;
 
             return result;
         }

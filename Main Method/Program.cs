@@ -23,7 +23,7 @@ namespace Main_Method
             //Get number from user and call method "Multi"
             Console.WriteLine("Enter a number to be multiplied by 9:");
             string userString = Console.ReadLine();
-            double dub = Convert.ToDouble(userString);
+            int dub = Convert.ToInt32(userString);
             Console.WriteLine(Class1.Multi(dub, 9));
             Console.ReadLine();
         }
