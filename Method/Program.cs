@@ -18,6 +18,12 @@ namespace Method
             if (userInt2 != )
             {
                 Console.WriteLine(Class1.Method(x, y));
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine(Class1.Method(userInt));
+                Console.ReadLine();
             }
         }
     }
