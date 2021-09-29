@@ -18,7 +18,7 @@ namespace Method_Class
             int intTwo = Convert.ToInt32(Console.ReadLine());
 
             // Call method "MyMethod" to display results of user input
-            Class1.MyMethod(intOne, intTwo);
+            Class1.MyMethod(intOne: intOne, intTwo: intTwo);
             
             Console.ReadLine();
         }
