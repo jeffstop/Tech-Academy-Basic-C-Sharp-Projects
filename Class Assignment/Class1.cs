@@ -8,9 +8,11 @@ namespace Class_Assignment
 {
     public class Math
     {
-        public static void Divide(int num, out int result)
+        public static void myMethod(int num, out int result)
         {
             result = num / 2;
         }
+
+
     }
 }
