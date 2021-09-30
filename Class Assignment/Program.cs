@@ -11,6 +11,15 @@ namespace Class_Assignment
         static void Main(string[] args)
         {
             Math math = new Math();
+
+            Console.WriteLine("Please enter a number:");
+
+            int num = Convert.ToInt32(Console.ReadLine());
+
+
+
+
+            Console.ReadLine();
         }
     }
 }
