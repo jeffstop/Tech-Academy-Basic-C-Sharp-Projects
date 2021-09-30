@@ -8,5 +8,6 @@ namespace Operators
 {
     interface IQuittable
     {
+        void Quit();
     }
 }
