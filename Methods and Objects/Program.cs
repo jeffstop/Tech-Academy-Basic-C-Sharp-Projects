@@ -10,6 +10,10 @@ namespace Methods_and_Objects
     {
         static void Main(string[] args)
         {
+            Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
+
+            employee.SayName();
+            Console.ReadLine();
         }
     }
 }
