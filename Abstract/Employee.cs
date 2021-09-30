@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Abstract
 {
+    // Inherit from class "Person"
     public class Employee : Person
     {
+        // Use SayName() method in class "Employee"
         public override void SayName()
         {
             Console.WriteLine(FirstName + " " + LastName);
