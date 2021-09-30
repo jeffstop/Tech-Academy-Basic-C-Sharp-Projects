@@ -33,6 +33,10 @@ namespace Class_Assignment
             Console.WriteLine("First overload method:\n5 + 10 = " + overload1);
             Console.WriteLine();
             Console.WriteLine("Second overload method:\n7 + 12 + 15 = " + overload2);
+            Console.WriteLine();
+
+
+            Console.WriteLine("This is a static class:\n5 * 5 = " + StaticClass.Product(5, 5));
 
             Console.ReadLine();
         }
