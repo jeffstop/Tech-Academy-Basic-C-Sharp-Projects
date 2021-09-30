@@ -10,6 +10,7 @@ namespace Abstract
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
