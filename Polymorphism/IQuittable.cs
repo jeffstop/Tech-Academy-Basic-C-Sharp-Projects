@@ -8,6 +8,7 @@ namespace Polymorphism
 {
     interface IQuittable
     {
+        // Void method called "Quit"
         void Quit();
     }
 }
