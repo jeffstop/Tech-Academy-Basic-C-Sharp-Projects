@@ -23,6 +23,7 @@ namespace Operators
             Console.WriteLine("Goodbye");
         }
 
+        // Overload the "==" operator. Returns true or false if ID's equal or not
         public static bool operator ==(Employee one, Employee two)
         {
             if (one.EmployeeID == two.EmployeeID)
