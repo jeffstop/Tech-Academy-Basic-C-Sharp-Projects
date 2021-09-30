@@ -17,7 +17,7 @@ namespace Class_Assignment
             Console.WriteLine("Please enter a number:");
             int num = Convert.ToInt32(Console.ReadLine());
 
-            // Create variable for method output
+            // Create integer variable to display method output
             int a;
             math.MyMethod(num, out a);
             Console.WriteLine(num + " / 2 = " + a);
