@@ -18,5 +18,13 @@ namespace Class_Assignment
             output1 = 37;
         }
 
+        public int MetOverload(int a, int b)
+        {
+            return a + b;
+        }
+        public int MetOverload(int a, int b, int c)
+        {
+            return a + b + c;
+        }
     }
 }
