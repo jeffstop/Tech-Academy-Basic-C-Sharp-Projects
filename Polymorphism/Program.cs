@@ -15,7 +15,8 @@ namespace Polymorphism
             employee.SayName();
 
             // Use polymorphism to create an object of IQuittable and call the method "Quit"
-            employee.Quit();
+            IQuittable quit = new Employee();
+            quit.Quit();
 
             Console.ReadLine();
         }
