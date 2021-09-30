@@ -12,17 +12,20 @@ namespace Class_Assignment
         {
             Math math = new Math();
 
+
             Console.WriteLine("Please enter a number:");
+
 
             int num = Convert.ToInt32(Console.ReadLine());
 
             int a;
-
             math.MyMethod(num, out a);
             Console.WriteLine(num + " / 2 = " + a);
 
 
-            
+            int z;
+            math.MetOut(out z);
+            Console.WriteLine("Method with output parameters: " + z);
 
 
 
