@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
-    class Employee
+    class Employee : Person, IQuittable
     {
 
     }
