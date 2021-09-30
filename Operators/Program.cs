@@ -18,11 +18,14 @@ namespace Operators
             //IQuittable quit = new Employee();
             //quit.Quit();
 
+            // Instantiate two Employees
             Employee employee1 = new Employee() { FirstName = "Sample", LastName = "Student", EmployeeID = 404 };
             Employee employee2 = new Employee() { FirstName = "Example", LastName = "Scholar", EmployeeID = 405 };
 
+            // Use overloaded "==" operator to compare Employee ID's
             bool idcheck = employee1 == employee2;
             Console.WriteLine("Employee ID's are equal:");
+            // This will return "true" if ID's are equal, and "false" if ID's are not equal
             Console.WriteLine(idcheck);
 
             Console.ReadLine();
