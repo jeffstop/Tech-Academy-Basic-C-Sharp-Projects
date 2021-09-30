@@ -1,0 +1,7 @@
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Class Assignment\bin\Debug\Class Assignment.exe.config
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Class Assignment\bin\Debug\Class Assignment.exe
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Class Assignment\bin\Debug\Class Assignment.pdb
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Class Assignment\obj\Debug\Class Assignment.csproj.AssemblyReference.cache
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Class Assignment\obj\Debug\Class Assignment.csproj.CoreCompileInputs.cache
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Class Assignment\obj\Debug\Class Assignment.exe
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Class Assignment\obj\Debug\Class Assignment.pdb
