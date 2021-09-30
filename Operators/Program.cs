@@ -22,6 +22,7 @@ namespace Operators
             Employee employee2 = new Employee() { FirstName = "Example", LastName = "Scholar", EmployeeID = 405 };
 
             bool idcheck = employee1 == employee2;
+            Console.WriteLine("Employee ID's are equal:");
             Console.WriteLine(idcheck);
 
             Console.ReadLine();
