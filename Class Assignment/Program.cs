@@ -18,8 +18,12 @@ namespace Class_Assignment
 
             int a;
 
-            Math.myMethod(num, out a);
+            math.MyMethod(num, out a);
             Console.WriteLine(num + " / 2 = " + a);
+
+
+            
+
 
 
             Console.ReadLine();
