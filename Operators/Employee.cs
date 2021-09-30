@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Operators
 {
-    class Employee
+    // Inherit from class "Person"
+    public class Employee : Person
     {
+        // Use SayName() method in class "Employee"
+        public override void SayName()
+        {
+            Console.WriteLine(FirstName + " " + LastName);
+        }
     }
 }
