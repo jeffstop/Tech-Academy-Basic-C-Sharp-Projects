@@ -10,7 +10,9 @@ namespace Abstract
     {
         static void Main(string[] args)
         {
+            // Instantiate Employee object with the name "Sample Student"
             Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
+            // Call SayName method on employee object
             employee.SayName();
             Console.ReadLine();
         }
