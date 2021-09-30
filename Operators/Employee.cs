@@ -27,12 +27,10 @@ namespace Operators
         {
             if (one.EmployeeID == two.EmployeeID)
             {
-                Console.WriteLine("Employee ID's are equal");
                 return true;
             }
             else
             {
-                Console.WriteLine("Employee ID's are not equal");
                 return false;
             }
         }
@@ -41,12 +39,10 @@ namespace Operators
         {
             if (one.EmployeeID == two.EmployeeID)
             {
-                Console.WriteLine("Employee ID's are equal");
                 return false;
             }
             else
             {
-                Console.WriteLine("Employee ID's are not equal");
                 return true;
             }
         }
