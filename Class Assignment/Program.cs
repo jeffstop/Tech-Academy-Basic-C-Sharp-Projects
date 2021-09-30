@@ -16,7 +16,7 @@ namespace Class_Assignment
 
             int num = Convert.ToInt32(Console.ReadLine());
 
-
+            math.Divide(num);
 
 
             Console.ReadLine();
