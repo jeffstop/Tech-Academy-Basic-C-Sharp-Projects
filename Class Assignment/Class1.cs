@@ -8,6 +8,9 @@ namespace Class_Assignment
 {
     public class Math
     {
-
+        public static void Addition(int num, out int result)
+        {
+            result = num + 15;
+        }
     }
 }
