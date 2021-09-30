@@ -16,7 +16,10 @@ namespace Class_Assignment
 
             int num = Convert.ToInt32(Console.ReadLine());
 
-            math.Divide(num);
+            int a;
+
+            Math.myMethod(num, out a);
+            Console.WriteLine(num + " / 2 = " + a);
 
 
             Console.ReadLine();
