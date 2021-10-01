@@ -12,16 +12,16 @@ namespace Lambda
         {
             List<Employee> employeeList = new List<Employee>()
             {
-                new Employee(){FirstName="", LastName="", EmployeeID=3},
-                new Employee(){FirstName="Joe", LastName="", EmployeeID=7},
-                new Employee(){FirstName="", LastName="", EmployeeID=2},
-                new Employee(){FirstName="", LastName="", EmployeeID=8},
-                new Employee(){FirstName="", LastName="", EmployeeID=9},
-                new Employee(){FirstName="", LastName="", EmployeeID=6},
-                new Employee(){FirstName="", LastName="", EmployeeID=11},
-                new Employee(){FirstName="Joe", LastName="", EmployeeID=4},
-                new Employee(){FirstName="", LastName="", EmployeeID=1},
-                new Employee(){FirstName="", LastName="", EmployeeID=10}
+                new Employee(){FirstName="Frank", LastName="Couch", EmployeeID=3},
+                new Employee(){FirstName="Joe", LastName="Smith", EmployeeID=7},
+                new Employee(){FirstName="Dan", LastName="Washington", EmployeeID=2},
+                new Employee(){FirstName="Jerry", LastName="Wagner", EmployeeID=8},
+                new Employee(){FirstName="Margaret", LastName="White", EmployeeID=9},
+                new Employee(){FirstName="Nancy", LastName="Blue", EmployeeID=6},
+                new Employee(){FirstName="Phil", LastName="Twelve", EmployeeID=11},
+                new Employee(){FirstName="Joe", LastName="East", EmployeeID=4},
+                new Employee(){FirstName="Ashley", LastName="Fort", EmployeeID=1},
+                new Employee(){FirstName="Janet", LastName="Hill", EmployeeID=10}
             };
         }
     }
