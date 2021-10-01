@@ -1,0 +1,7 @@
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Parameters\bin\Debug\Parameters.exe.config
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Parameters\bin\Debug\Parameters.exe
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Parameters\bin\Debug\Parameters.pdb
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Parameters\obj\Debug\Parameters.csproj.AssemblyReference.cache
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Parameters\obj\Debug\Parameters.csproj.CoreCompileInputs.cache
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Parameters\obj\Debug\Parameters.exe
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\Parameters\obj\Debug\Parameters.pdb
