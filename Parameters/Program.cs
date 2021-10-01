@@ -23,10 +23,12 @@ namespace Parameters
             try
             {
                 Console.WriteLine("Please enter the day of the week:");
+                DaysOfTheWeek day = (DaysOfTheWeek)Enum.Parse(typeof(DaysOfTheWeek), Console.ReadLine(), true);
+                Console.WriteLine("Today is {0}", day.ToString());
             }
             catch (ArgumentException)
             {
-                Console.WriteLine("Please enter correctly enter the day of the week.");
+                Console.WriteLine("Please correctly enter the day of the week.");
             }
             Console.ReadLine();
         }
