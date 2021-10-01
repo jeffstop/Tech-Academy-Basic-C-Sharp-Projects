@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Lambda
 {
     // Inherit from class "Person"
-    class Employee : Person
+    class Employee : Person, IQuittable
     {
         public int EmployeeID { get; set; }
 
@@ -23,3 +23,4 @@ namespace Lambda
             Console.WriteLine("Goodbye");
         }
     }
+}
