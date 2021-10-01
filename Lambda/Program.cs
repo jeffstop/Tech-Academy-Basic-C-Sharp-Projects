@@ -10,6 +10,7 @@ namespace Lambda
     {
         static void Main(string[] args)
         {
+            // Create Employee list
             List<Employee> employeeList = new List<Employee>()
             {
                 new Employee(){FirstName="Frank", LastName="Couch", EmployeeID=3},
@@ -24,6 +25,7 @@ namespace Lambda
                 new Employee(){FirstName="Janet", LastName="Hill", EmployeeID=10}
             };
 
+            // Create new list to add duplicate employees named "Joe"
             List<Employee> dupJoe = new List<Employee>();
             foreach (Employee employee in employeeList)
             {
@@ -33,13 +35,13 @@ namespace Lambda
                 }
             }
 
-
+            // Lambda function to get all employees named "Joe"
             List<Employee> lamJoe = employeeList.Where(x => x.FirstName.Contains("Joe")).ToList();
 
-
+            // Lambda function to get all employee ID's greater than 5
             List<Employee> lamID = employeeList.Where(x => x.EmployeeID > 5).ToList();
 
-
+            // Display count of the above lambda functions
             Console.WriteLine("Number of employees named \"Joe\":");
             Console.WriteLine(lamJoe.Count);
             Console.WriteLine("Number of employees with ID's greater than 5:");
