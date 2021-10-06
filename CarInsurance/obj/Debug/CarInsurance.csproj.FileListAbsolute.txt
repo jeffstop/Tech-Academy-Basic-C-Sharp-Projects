@@ -80,4 +80,3 @@ C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\CarInsurance
 C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\CarInsurance\obj\Debug\CarInsurance.csproj.CoreCompileInputs.cache
 C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\CarInsurance\obj\Debug\CarInsurance.dll
 C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\CarInsurance\obj\Debug\CarInsurance.pdb
-C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\CarInsurance\obj\Debug\CarInsurance.csproj.CopyComplete
