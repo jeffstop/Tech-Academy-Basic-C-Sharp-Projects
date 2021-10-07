@@ -17,9 +17,12 @@ namespace Challenge.Pages
             _logger = logger;
         }
 
+        public static DateTime Now { get; }
+
         public void OnGet()
         {
-
+            string dateTime = DateTime.Now.ToLongTimeString();
+            ViewData["TimeStamp"] = dateTime;
         }
     }
 }
