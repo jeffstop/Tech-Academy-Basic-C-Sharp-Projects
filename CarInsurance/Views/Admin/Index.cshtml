@@ -1,10 +1,11 @@
 ﻿@model IEnumerable<CarInsurance.Models.Insuree>
 
 @{
-    ViewBag.Title = "Admin";
+    ViewBag.Title = "Index";
 }
 
-<h2>Admin</h2>
+<h2>Index</h2>
+
 
 <table class="table">
     <tr>
@@ -22,21 +23,21 @@
         </th>
     </tr>
 
-    @foreach (var item in Model)
-            {
-                <tr>
-                  <td>
-                      @Html.DisplayFor(modelItem => item.FirstName)
-                  </td>
-                  <td>
-                      @Html.DisplayFor(modelItem => item.LastName)
-                  </td>
-                  <td>
-                      @Html.DisplayFor(modelItem => item.EmailAddress)
-                  </td>
-                  <td>
-                      @Html.DisplayFor(modelItem => item.Quote)
-                  </td>
-                </tr>
-            }
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quote)
+        </td>
+    </tr>
+}
+
 </table>
