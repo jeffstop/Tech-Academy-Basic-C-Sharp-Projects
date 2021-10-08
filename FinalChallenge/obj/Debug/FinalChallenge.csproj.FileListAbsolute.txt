@@ -7,6 +7,5 @@ C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallen
 C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\obj\Debug\FinalChallenge.csproj.AssemblyReference.cache
 C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\obj\Debug\FinalChallenge.csproj.CoreCompileInputs.cache
-C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\obj\Debug\FinalChallenge.csproj.CopyComplete
 C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\obj\Debug\FinalChallenge.exe
 C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\obj\Debug\FinalChallenge.pdb
