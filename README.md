@@ -1,5 +1,5 @@
 # Tech-Academy-Basic-C-Sharp-Projects
-This repository will contain my C-Sharp projects from The Tech Academy.
+This repository will contain my C-Sharp and .NET Framework projects from The Tech Academy.
 
 ## Projects:
 * [Car Insurance](https://github.com/jeffstop/Tech-Academy-Basic-C-Sharp-Projects/tree/main/CarInsurance)
