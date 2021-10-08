@@ -1,0 +1,12 @@
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\bin\Debug\FinalChallenge.exe.config
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\bin\Debug\FinalChallenge.exe
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\bin\Debug\FinalChallenge.pdb
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\bin\Debug\EntityFramework.dll
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\bin\Debug\EntityFramework.xml
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\obj\Debug\FinalChallenge.csproj.AssemblyReference.cache
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\obj\Debug\FinalChallenge.csproj.CoreCompileInputs.cache
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\obj\Debug\FinalChallenge.csproj.CopyComplete
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\obj\Debug\FinalChallenge.exe
+C:\Users\jstop\Documents\GitHub\Tech-Academy-Basic-C-Sharp-Projects\FinalChallenge\obj\Debug\FinalChallenge.pdb
