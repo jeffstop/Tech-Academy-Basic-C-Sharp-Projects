@@ -10,6 +10,13 @@ namespace FinalChallenge
     {
         static void Main(string[] args)
         {
+            using (var ctx = new SchoolContext())
+            {
+                var stud = new Student() { StudentName = "Phil" };
+
+                ctx.Students.Add(stud);
+                ctx.SaveChanges();
+            }
         }
     }
 }
